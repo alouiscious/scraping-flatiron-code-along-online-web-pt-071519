@@ -1,5 +1,4 @@
 
-
 class Course
     attr_accessor :title, :schedule, :description
 
@@ -9,7 +8,7 @@ class Course
     end
 
     def title
-        @title = title
+        @title = self.new
     end
 
     def schedule
